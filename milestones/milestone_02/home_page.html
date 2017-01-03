@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="home_page.css">
+<title>Milestone 2</title>
+
+  <meta charset="utf-8">
+</head>
+<body>
+<!-- Olesya Haith
+    home_page.html
+     Web 1
+     Art Brown
+     01/01/17
+-->
+
+
+
+
+
+
+
+
+<header>
+ <img src="images/mylogo12.gif" alt="logo" title="mylogo12" > 
+
+<div class="forth">
+<button type="button" onclick="alert('Thank you for log in!')"class="button">log in</button>
+<button type="button" onclick="alert('Thank you for sign up!')"class="button">sign up</button>
+</div>
+
+<nav>
+<ul>
+<li><a class="active" href="home_page.html"> Home </a></li>
+<li><a href="plan_page.html"> Plan & Pricing </a></li>
+<li><a href="terms.html">Terms of Service </a></li>
+<li><a href="contacts.html">Contacts </a></li>
+</ul>
+</nav>
+</header>
+
+<div id="wrapper">
+<div id="demo" style="max-width:500px">
+  <img class="mySlides" src="images/background2.jpg" style="width:100%">
+  <img class="mySlides" src="images/background3.jpg" style="width:100%">
+  <img class="mySlides" src="images/desk.jpg" style="width:100%">
+</div>
+
+
+
+
+
+
+
+
+<div class="parentRelative">
+<h2> &nbsp;Join our Community today!</h2>
+<p class = "first">"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain."
+"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain."</p>
+
+</div>
+
+<footer>
+
+
+<img src="images/email.png" title="email icon" alt="email">
+<img src="images/twitter_16.png" title="Twitter icon" alt="twitter_16">
+<img src="images/facebook_16.png" title="facebook icon" alt="facebook_16">
+
+
+
+</footer>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+
+    var x = ["images/background2.jpg","images/background3.jpg","images/desk.jpg"];
+      document.getElementById('wrapper').style.backgroundImage = 'url('+ x[myIndex++]+')' ; 	  
+	  if(x.length<=myIndex){myIndex = 0}
+	setTimeout(carousel, 2000);
+    }
+
+</script>
+
+</body>
+</html>
