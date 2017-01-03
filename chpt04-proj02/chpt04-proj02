@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 4</title>
+   <link rel="stylesheet" href="reset1.css" />
+   <link rel="stylesheet" href="chapter04-project02.css" />
+   <!-- Olesya Haith
+     Chapter4-2
+     2900 Web1
+     Art Brown
+     12/28/16
+-->
+</head>
+<body>
+<div id="wrapper">
+<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="x">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
+	
+<div id="boxheader"> 
+<select name="accesstype" id="accesstype" size="1">
+<option>Actions</option>
+<option value="Actions">Actions</option>
+<option value="Archive">Archive</option>
+<option value="Delete">Delete</option>
+</select>
+<input type="submit" value="Apply" action="http://www.randyconnolly.com/tests/process.php">
+
+<select name="accesstype" id="accesstype" size="1">
+<option>Genre</option>
+<option value="Actions">Baroque</option>
+<option value="Archive">Renaissance</option>
+<option value="Delete">Realism</option>
+</select>
+<input type="submit" value="Filter"  >
+</div>
+
+<div id="table">
+<table>
+<tr>
+<th colspan="7" class="tabletopic">Paintings</th>
+</tr>
+<tr>
+<th></th>
+<th></th>
+<th>Title</th>
+<th>Artist</th>
+<th>Year</th>
+<th>Genre</th>
+<th></th>
+</tr>
+<tr>
+<td><input type="checkbox" name="index[]" value="10" /></td>
+<td><img src="images/1.jpg" class="one" title="the first picture" alt="picture"></td>
+<td>Death of Marat</td>
+<td>David,Jacques-Lowis</td>
+<td>1793</td>
+<td>Romanticism</td>
+<td>
+<button type="submit">
+<img src="images/icon.png" class="one" title="icon image" alt="icon"><a href="http://www.randyconnolly.com/tests/process.php"> Edit</a>
+	</button>
+</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="index[]" value="10" /> </td>
+<td><img src="images/2.jpg"class="one" title="the second picture" alt="picture"></td>
+<td>Portrait of Eleanor of Toledo</td>
+<td>Bronzino, Agnolo</td>
+<td>1545</td>
+<td>Mannerism</td>
+<td><button type="submit">
+	<img src="images/icon.png" class="one" title="icon image" alt="icon"><a href="http://www.randyconnolly.com/tests/process.php"> Edit</a>
+	</button>
+</button>
+</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" name="index[]" value="10" /></td>
+<td><img src="images/3.jpg" class="one" title="the third picture" alt="picture"></td>
+<td>Liberty Leading the People</td>
+<td>Delacraix, Eugene</td>
+<td>1830</td>
+<td>Romanticism</td>
+<td><button type="submit">
+<img src="images/icon.png" class="one" title="icon image" alt="icon"><a href="http://www.randyconnolly.com/tests/process.php"> Edit</a>
+</button>
+</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" name="index[]" value="10" /></td>
+<td><img src="images/4.jpg" class="one" title="the forth picture" alt="picture"></td>
+<td>Arrengement in Grey and Black</td>
+<td>Whistler, James Abbott</td>
+<td>1871</td>
+<td>Realism</td>
+<td>
+<button type="submit">
+<img src = "images/icon.png" class="one" title="icon image" alt="icon"><a href="http://www.randyconnolly.com/tests/process.php"> Edit</a>
+</button>
+</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" name="index[]" value="10" /></td>
+<td><img src="images/5.jpg" class="one" title="the firth picture" alt="picture"></td>
+<td>Mademoiselle Caroline Riviere</td>
+<td>Ingres, Jean-auguste</td>
+<td>1806</td>
+<td>Neo-Classicism</td>
+<td><button type="submit">
+<img src="images/icon.png" class="one" title="icon image" alt="icon"><a href="http://www.randyconnolly.com/tests/process.php"> Edit</a>
+</button>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

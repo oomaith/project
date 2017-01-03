@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chapter3-3</title>
+  <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+<body>
+<!-- Olesya Haith
+     Chapter3-3
+     2900 Web1
+     Art Brown
+     12/16/16
+-->
+
+<div class="parentFixed">
+<h1> &nbsp;Hypothetical Art Store</h1>
+<p>&nbsp;Super cool tag goes here.</p>
+
+</div>
+<div class="parentRelative">
+<h2> &nbsp;Under Constuction</h2>
+<div class="parentElement">
+<h3> &nbsp;Our Website will be live in</h3>
+<div class="parentThird">
+<p> &nbsp; 4 years, 3 months, and 2 days</p>
+</div>
+
+</div>
+<div class="parentOne">
+&nbsp; <img src="email.png" title="email icon" alt="email">  <a class="active" href="#contact_us">Contact us</a> &nbsp; &nbsp; &nbsp;<img src="email_16.png" title="email icon" alt="email_16">
+<img src="rss_16.png" title="RSS icon" alt="rss_16">
+<img src="twitter_16.png" title="Twitter icon" alt="twitter_16">
+<img src="facebook_16.png" title="facebook icon" alt="facebook_16">
+<img src="flickr_16.png" title="flickr icon" alt="flickr_16">
+</div>
+</div>
+<footer>
+
+</footer>
+
+
+
+
+</body>
+</html>

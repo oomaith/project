@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chapter2-3</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="law_firm.css">
+  <style>
+  nav li{ display: inline;
+		padding-right:25px;}
+		
+footer {background-color: white;
+	color: black;
+	font-size: .8em;
+	font-style: italic;
+	border-top: 1px dashed black;
+		}		
+  .first {
+	border-top: 1px dashed black;
+  }
+  
+  </style>
+</head>
+<body>
+<!-- Olesya Haith
+     Chapter2-3
+     2900 Web1
+     Art Brown
+     12/15/16
+-->
+
+<h1>My Sample Art Store</h1>
+<nav>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#artists">Artists</a></li>
+  <li><a href="#artworks">Artworks</a></li>
+  <li><a href="#about_us">About us</a></li>
+  <li><a href="#search">Search</a></li>
+</ul>
+</nav>
+<main>
+
+<h3>Mademoiselle Caroline Riviere</h3>
+<p><li><a href="#title">Jean-Auguste-Dominique Ingres</a></li></p>
+
+<a href="image-large.jpg"><img src="image.jpg" alt="It is my First Image" title="girl image" target="_blank" height=100 width=90></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+<p><strong>Date:</strong> 1806</p>
+<p><strong>Medium:</strong> Oil on Canvas</p>
+<p><strong>Dimensions:</strong> 100 * 70 cm</p>
+<p><strong>Home:</strong> Louvre, Paris</p>
+<img src="add-to-basket_btn.png" title="add-to-basket icon" alt="add-to-basket_btn">
+<img src="add-to-favorites_btn.png" title="add-to-favorites icon" alt="add-to-favorites_btn">
+
+<h3>Buttons</h3>
+
+<p>Share: 
+<img src="email.png" title="email icon" alt="email">
+<img src="twitter.png" title="Twitter icon" alt="twitter">
+<img src="facebook.png" title="facebook icon" alt="facebook">
+<img src="sharethis.png" title="sharethis icon" alt="sharethis">
+
+</p>
+<h3>Related Paintings</h3>
+<img src="image2.jpg" title="Woman image" alt="image2" height=120 width=90>
+<img src="image3.jpg" title="War image" alt="image3" height= 120 width=90>
+<img src="image4.jpg" title="Old lady" alt="image4" height= 120 width=90>
+<img src="image5.jpg" title="Old man" alt="image5" height= 120 width=90>
+<h3>Review</h3>
+<h4>Love this paiting</h4>
+<p>John Smith
+<img src="star-orange.png" title="star-orange icon" alt="star-orange">
+<img src="star-orange.png" title="star-orange icon" alt="star-orange">
+<img src="star-orange.png" title="star-orange icon" alt="star-orange">
+<img src="star-orange.png" title="star-orange icon" alt="star-orange">
+<img src="star-white.png" title="star-white icon" alt="star-white">
+</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+
+<p class="first">It's okey</p>
+<p>Jane Doe
+<img src="star-orange.png" title="star-orange icon" alt="star-orange">
+<img src="star-orange.png" title="star-orange icon" alt="star-orange">
+<img src="star-orange.png" title="star-orange icon" alt="star-orange">
+<img src="star-white.png" title="star-white icon" alt="star-white">
+<img src="star-white.png" title="star-white icon" alt="star-white">
+</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+</p>
+
+</main>
+
+<footer>
+<nav>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#artists">Artists</a></li>
+  <li><a href="#artworks">Artworks</a></li>
+  <li><a href="#about_us">About us</a></li>
+  <li><a href="#search">Search</a></li>
+</ul>
+</nav>
+<p> Copyright &copy; 2013 My Sample Art Store </p>
+</footer>
+
+
+
+
+</body>
+</html>
