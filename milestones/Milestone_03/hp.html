@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="hp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cornfed Coworking</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-10">
+  <img src="images/mylogo12.gif" alt="logo" title="mylogo12" >
+  </div> 
+  <div class="col-md-2"> 
+  <div class="mybutton">
+  <button class="btn btn-primary" type="button" onclick="alert('Thank you for log in!')"class="button">log in</button>
+<button class="btn btn-primary" type="button" onclick="alert('Thank you for sign up!')"class="button">sign up</button>
+  </div>
+  </div>
+  </div>
+  
+   <div class="container">
+  <nav class="nav navbar-inverse">
+  <ul class="nav navbar-nav">
+  <li><a class="active" href="hp.html"> Home </a></li>
+<li><a href="pp.html"> Plan & Pricing </a></li>
+<li><a href="tp.html">Terms of Service </a></li>
+<li><a href="cp.html">Contacts </a></li>
+  </ul>
+  </nav>
+  </div>
+  
+ <div id="wrapper">
+ <div class="parentRelative">
+  <h2> &nbsp;Join our Community today!</h2>
+<p class = "first">"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain."
+"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain."</p>
+</div> 	 
+</div>
+
+  
+ <div class="container">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<div class="row">
+				<div class="col-md-10"></div>
+					<div class="col-md-2">
+						<img src="images/email.png" title="email icon" alt="email" >
+						<img src="images/twitter_16.png" title="Twitter icon" alt="twitter_16">
+						<img src="images/facebook_16.png" title="facebook icon" alt="facebook_16">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+ </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+
+    var x = ["images/background2.jpg","images/background3.jpg","images/desk.jpg"];
+      document.getElementById('wrapper').style.backgroundImage = 'url('+ x[myIndex++]+')' ; 	  
+	  if(x.length<=myIndex){myIndex = 0}
+	setTimeout(carousel, 2000);
+    }
+
+</script>	
+	
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

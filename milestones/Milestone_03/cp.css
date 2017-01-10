@@ -1,0 +1,33 @@
+li a:hover:not(.active) {
+    background-color: #CCCC00;
+}
+
+.active {
+    background-color: #CCCC00;
+}
+#wrapper {
+background-color: #99ccff;
+	background-image:linear-gradient(to bottom, #ffffff,#99ccff);
+	background-repeat: no-repeat;
+color: black;
+margin-left: 20px;
+padding-left: 20px;
+
+}
+.mybutton {
+	color: #CCCC00;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+h2 {text-align: center;}
+
+h1 {color:#000066;}
+.contact_nb{color: red;}

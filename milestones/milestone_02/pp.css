@@ -1,0 +1,39 @@
+
+
+.active {
+    background-color: #CCCC00;
+}
+
+.mybutton {
+	color: #CCCC00;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.col-md-4 {
+	margin: auto;
+		width: 80%;
+		background-color: white;
+		
+		margin-top:5%;
+		margin-bottom:5%;
+}
+h2 {text-align: center;}
+
+h1 {color:#000066;}
+
+#wrapper{
+	background-color: #99ccff;
+	background-image:linear-gradient(to bottom, #ffffff,#99ccff);
+	background-repeat: no-repeat;
+color: black;
+margin-left: 20px;
+padding-left: 20px;
+}
