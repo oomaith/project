@@ -56,7 +56,7 @@ if ($action=="")    /* display the contact form */
     Your Email:<br>
     <input name="email" type="text" value="" size="30"/><br>
     Your message:<br>
-    <textarea name="message" rows="7" cols="30"></textarea><br /><br />
+    <textarea name="message" rows="7" cols="30"></textarea><br /><br />a
     <input type="submit" value="Submit"/>
     </form>
    

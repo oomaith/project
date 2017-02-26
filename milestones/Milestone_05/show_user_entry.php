@@ -30,7 +30,7 @@ $stmt->bind_param("sss", $firstname, $lastname, $email);
 
     if ($result->num_rows > 0) {
         while($row = $result->fetch_assoc()) {
-echo "<br/> &nbsp;&nbsp;&nbsp;&nbsp; USER INFORMATION:</br></br> &nbsp;&nbsp;&nbsp;&nbsp; Name: " . $row["salutation"] . " " . $row["first_name"] . " ". $row["last_name"] . "<br/> &nbsp;&nbsp;&nbsp;&nbsp; Phone: " . $row["TelephoneNumber"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Email: " . $row["Email"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Password: ". $row["Password"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Date of Birth: " . $row["date"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Work Status: " . $row["WorkStatus"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Name of the Company: " . $row["CompanyName"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Role: " . $row["Role"] . " <br/>";
+echo "<br/> &nbsp;&nbsp;&nbsp;&nbsp; USER INFORMATION   :</br></br> &nbsp;&nbsp;&nbsp;&nbsp; Name: " . $row["salutation"] . " " . $row["first_name"] . " ". $row["last_name"] . "<br/> &nbsp;&nbsp;&nbsp;&nbsp; Phone: " . $row["TelephoneNumber"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Email: " . $row["Email"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Password: ". $row["Password"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Date of Birth: " . $row["date"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Work Status: " . $row["WorkStatus"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Name of the Company: " . $row["CompanyName"] . " </br>&nbsp;&nbsp;&nbsp;&nbsp; Role: " . $row["Role"] . " <br/>";
           
         }
     } else {
